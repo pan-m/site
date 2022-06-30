@@ -26,6 +26,7 @@ h3 {
 .content ul {
     list-style: none;
     padding: 0;
+    margin-left: 0px;
 }
 .content li {
     border-radius: 100%;
