@@ -96,6 +96,10 @@ header_pages:
 
 permalink: none
 
+collections:
+  category:
+    output: true
+
 # Build settings
 theme: minima
 plugins:
