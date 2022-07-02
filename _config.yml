@@ -25,6 +25,7 @@ author:
   location: Toronto, Canada
   email: panm@pcloud.gr
   public_key_url: /assets/pub.asc
+tagline: Panagiotis Michalopoulos
 description: > # this means to ignore newlines until "show_excerpts:"
   Personal web site
 
@@ -83,8 +84,8 @@ front_img: no
 #front_img_path: "imgs/background.jpg"
 #front_img_path: "https://external.url/image.jpg"
 
-favicon_img: yes
-favicon_img_path: "/assets/favicon.png"
+#favicon_img: yes
+#favicon_img_path: "/assets/favicon.png"
 #favicon_img_path: "https://external.url/favicon.ico"
 
 

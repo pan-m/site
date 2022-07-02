@@ -1,6 +1,13 @@
-  {% if site.favicon_img %}
-  <link rel="shortcut icon" href="{{ site.favicon_img_path }}" />
-  {% endif %}
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="manifest" href="/assets/site.webmanifest">
+  <link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/assets/favicon.ico">
+  <meta name="msapplication-TileColor" content="#603cba">
+  <meta name="msapplication-config" content="/assets/browserconfig.xml">
+  <meta name="theme-color" content="#a1b9d2">
+  
   {% if page.layout == "home" %}
   <link rel="stylesheet" href="{{ "assets/css/front.css" | relative_url }}">
   {% endif %}
